@@ -9,4 +9,14 @@ public class SeasideController {
     public String home() {
         return "home";
     }
+    
+    @GetMapping("/casdastro")
+    public String cadastro() {
+        return "cadastro";
+    }
+    
+    @GetMapping("/vendas")
+    public String vendas() {
+        return "vendas";
+    }
 }
